@@ -7,9 +7,7 @@ if number % 2 == 0:
 else:
     print("The number is odd.")
 
-
-
-def Check_Even():
+def Check_Even(number):
     if number % 2 == 0:
      print("The number is even.")
     else:
@@ -29,4 +27,5 @@ if __name__ == "__main__":
         print(f"The number {num} is {result}.")
     except ValueError:
         print("Please enter a valid integer.")
+
 
