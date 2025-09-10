@@ -7,8 +7,16 @@ if number % 2 == 0:
 else:
     print("The number is odd.")
 
+
 def square(number):
     print(number*number)
+def Check_Even(number):
+    if number % 2 == 0:
+     print("The number is even.")
+    else:
+     print("The number is odd.")
+
+
 
 def check_even_odd(number):
     if number % 2 == 0:
@@ -23,13 +31,5 @@ if __name__ == "__main__":
         print(f"The number {num} is {result}.")
     except ValueError:
         print("Please enter a valid integer.")
-
-
-
-def Check_Even():
-    if number % 2 == 0:
-     print("The number is even.")
-    else:
-     print("The number is odd.")
 
 
