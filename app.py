@@ -6,3 +6,11 @@ if number % 2 == 0:
     print("The number is even.")
 else:
     print("The number is odd.")
+
+
+def Check_Even():
+    if number % 2 == 0:
+     print("The number is even.")
+    else:
+     print("The number is odd.")
+
